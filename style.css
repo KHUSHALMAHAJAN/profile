@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    background-color: rgb(42, 41, 41);
+    width: 100%;
+}
+#nav{
+    color: #f6eccd;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h2{
+    padding: 1vw 7vw;
+    /* padding-left: 7vw; */
+    color: #f6eccd;
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+#navright{
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    display: flex;
+    gap: 50px;
+    padding-right: 3vw;
+}
+#heading{
+    color: #f6eccd;
+    text-transform: uppercase;
+    margin: 10vw;
+}
+#heading h1{
+    font-size: 90px;
+}
+#headingend{
+    width: fit-content;
+}
+#headingend h4{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 40px;
+    line-height: 2;
+}
+#second{
+    width: 100%;
+}
+.elem h1{
+    color: #f6eccd;
+    font-size: 14vw;
+    padding: 0vw 0vw 0vw 11vw;
+    text-transform: uppercase;
+}
+.elem{
+    display: flex;
+    border-top: 1px solid white;
+    /* align-items: center; *
+    /* justify-content: space-between; */
+}
+.elem img{
+    width: 13vw;
+    height: 13vw;
+    margin-top: 10px;
+    display: none;
+}
+.elem p{
+    color: #f6eccd;
+    font-size: 1.5vw;
+    padding: 2vw 3vw 3vw 29vw;
+}
+.elemlp p{
+    padding-left: 3vw;
+    margin-right: 4vw;
+}
+.elemlp h1{
+    /* padding-left: 2vw; */
+    margin-left: 0vw;
+    padding-right: 4vw;
+    padding-left: 0vw;
+}
+.elemjava p{
+    padding-left: 10vw;
+}
+.elemcss p {
+    padding-left: 18vw;
+}
+.eleml{
+    border-bottom: 1px solid white;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    width: 60%;
+    margin-left: 30%;
+    margin-top: 80px;
+}
+#about img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
